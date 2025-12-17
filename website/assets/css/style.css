@@ -1,7 +1,7 @@
 
 body {
-    background: #BDBDBD;
-    margin: 0;
+  background: #bdbdbd;
+  margin: 0;
 }
 
 .hero {
@@ -27,4 +27,46 @@ body {
     font-size: 3rem;
     color: white;
     text-align: center;
+}
+
+/* merged duplicate body rule above */
+
+.container-fluid {
+  padding: 2rem 3rem;
+}
+
+.header-text {
+  padding: 0 0 1rem 0;
+}
+
+.header-text-title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.header-text-content {
+  color: #444;
+  margin-bottom: 1.25rem;
+}
+
+.footer-content {
+  padding-top: 0.5rem;
+}
+
+.project-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 7 / 4;
+  border-radius: 2px;
+  object-fit: cover;
+}
+
+.project-title a {
+  text-decoration: none;
+}
+
+.page-filename {
+  color: #d9534f;
+  font-weight: 600;
 }
